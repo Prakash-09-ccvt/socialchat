@@ -1,0 +1,205 @@
+html
+{
+	min-height: 100%;
+}
+
+body
+{
+ margin: 0;
+ padding: 0;
+
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 100%;
+}
+
+
+.container
+{	
+	max-width: 500;
+	margin: auto;
+	margin-top: 1%;
+	font-family:sans-serif;
+	letter-spacing: 0.5px;
+	
+	
+}
+
+.msg-header
+{	
+	border-radius:  15px 15px 0 0!important;
+	border: 2px solid #ccc;
+	width: 100%;
+	height: 7%;
+	border-bottom: none;
+	display:inline-block;
+	
+	background-color: rgba(0,0,0,0.3) !important;
+        color:#00203FFF;
+}
+
+.groupname
+{
+	font-family:sans-serif;
+	color:white;
+	text-align:left;
+	font-size: 36px;
+}
+
+
+
+
+.chat-page
+{
+	
+	border-radius: 0 0 20px 20px;
+	
+	background-color: rgba(0,0,0,0.3) !important;
+
+}
+
+.msg-inbox
+{
+	
+	border: 2px solid #fff;
+	border-radius: 0 0 15px 15px !important;
+	overflow: hidden;
+	padding-bottom: 10px;
+	position : relative; 
+	bottom:0;
+}	
+
+.chats{
+	
+	border-bottom: 2px solid #fff;
+	
+	
+}
+.msg-page
+{
+	
+	height: 580px;
+	overflow-y: auto;
+	
+	
+	
+}
+
+.msg_cotainer{
+	
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 5px;
+		margin-right: 450px;
+		border-radius: 25px;
+		background-color: #ADEFD1FF;
+		position: relative;
+		color:#00203FFF;
+		
+	}
+	
+	.msg_cotainer_me{
+		
+		
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 650px;
+		margin-right: 10px;
+		border-radius: 25px;
+		background-color: #fff;
+		position: relative;
+		color:   #00203FFF;
+		
+	}
+	
+	p{
+		font-size: 20px;
+		text-align: justify;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 15px;
+		margin-right: 15px;
+		
+	}
+
+
+.card-footer{
+	
+	
+		border-radius: 0 0 15px 15px !important;
+			border-top: 0 !important;
+			
+	}
+	
+.input-group
+{		
+		float: right;
+		margin-top: 13px;
+		margin-right: 10px;
+		
+		outline: none;
+		border-radius: 20px;
+		width: 30%;
+		
+		background:transparent;
+		
+}
+
+.form-control
+{
+	
+	background:transparent;
+	margin-left: 15px;
+	border: none;
+	border-radius: 20px;
+	
+}
+
+.type_msg{
+			background-color: rgba(0,0,0,0.7) !important;
+			border:0 !important;
+			color:white !important;
+			height: 60px !important;
+			overflow-y: auto;
+			border-radius: 20px;
+		}
+.form-control:focus
+{
+	
+	border-color: none;
+	box-shadow:none;
+	border-radius: 20px;
+	
+}
+
+.button{
+	background-color: rgba(0,0,0,0.7) !important;
+	border:0 !important;
+			color:white !important;
+			height: 60px !important;
+	
+	border-radius: 0 10px 10px 0 !important;
+}
+
+.signout{
+    background-color: rgba(0,0,0,0.7) !important;
+	border:0 !important;
+			color:white !important;
+			height: 60px !important;
+	
+	border-radius: 0 10px 10px 0 !important;
+                
+}
+
+
+
+
+
+
+
+
+
+
+
+
